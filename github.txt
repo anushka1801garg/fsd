@@ -1,0 +1,16 @@
+git is a software and github is a service that is used to stor all what we are doing using git on cloud.
+
+like github there are many service such as gitbucket.
+
+role of git is to version control:track the changes in the file and if something wrong happens then we can trace back to it.it is used for checkpointing.
+
+not every folder is being tracked by the git,ou need to initiliaze it so that it can be tracked by the git.
+
+COMMAND1:
+  "git status":to check the status ,if error intially then okayy.
+
+  then go into the folder and write "git init"(one time per project)
+  git init make a folder ".git" which is hidden to keep history of all files and sub-folders.
+
+  
+
