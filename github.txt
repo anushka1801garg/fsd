@@ -12,5 +12,25 @@ COMMAND1:
   then go into the folder and write "git init"(one time per project)
   git init make a folder ".git" which is hidden to keep history of all files and sub-folders.
 
-  
+  "git add file_name" or "git add." to make everything add.
+  "git commit -m "a message""
+
+"git log" shows commit id and other inforation(such as author name,email id,date) of commits done.  
+
+example
+
+PS C:\Users\Anushka Garg\Desktop\fsd\github_practise> git log
+commit e6b3fac902a9557de44cdd0a71fee4a2b44d4843 (HEAD -> master)
+Author: Anushka Garg <your_github_email@example.com>
+Date:   Wed Jun 10 12:53:59 2026 +0530
+
+"git log --oneline"  shows the commit id
+
+example
+
+PS C:\Users\Anushka Garg\Desktop\fsd\github_practise> git log --oneline
+e6b3fac (HEAD -> master) github guide
+
+git config --global user.name "name of the user"
+git config --global user.email "email"  
 
