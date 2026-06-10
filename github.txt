@@ -34,3 +34,7 @@ e6b3fac (HEAD -> master) github guide
 git config --global user.name "name of the user"
 git config --global user.email "email"  
 
+git config --global core.editor "code --wait"  (if you only want to write commit and use it in vs code rather than vim)
+
+
+
