@@ -36,5 +36,9 @@ git config --global user.email "email"
 
 git config --global core.editor "code --wait"  (if you only want to write commit and use it in vs code rather than vim)
 
+.env file is created to store the personal info
+.gitignore file is created to include the file that we don't want to show to all on github
 
+you can use gitignore generator to append most commmonly ignored file
 
+"C:\Users\Anushka Garg\.gitconfig"(to see configuration file)
