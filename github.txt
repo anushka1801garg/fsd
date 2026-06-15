@@ -99,9 +99,10 @@ to contribute to an open sourse contribution:
 2)fork the repo due to which it comes to our account
 3)clone the repo
 4)make the changes by creating a new branch
-5)make got pull request
-6)add detialed description
-7)last make git pull
+5)commit those changes
+6)make got pull request
+7)add detialed description
+8)last make git pull
 
 
 
