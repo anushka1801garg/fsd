@@ -42,3 +42,50 @@ git config --global core.editor "code --wait"  (if you only want to write commit
 you can use gitignore generator to append most commmonly ignored file
 
 "C:\Users\Anushka Garg\.gitconfig"(to see configuration file)
+
+"git branch" (to see the branch current name)
+"git checkout branchname" or "git switch branchname" (to switch the branch)
+
+"git checkout -b dark-mode" (shortcut to create the branch as well as move into that simulataneously)
+
+"git switch -c dark-mode"(same function as above)
+
+"git branch -d navbar" (to delete a branch once it has been merged woth main branch and purpose has been fulfilled)
+
+"ni navbar.html -ItemType File" (to create any file on a particular branch).
+
+inside the .git folder :
+1)head file points to the current branch
+2)ref folder contains head file that contains ids of both branches and when you type "git log --oneline" you get the id of the current branch
+
+
+for merging:
+go on the master branch:
+"git merge branchname" (to merge any branch on the master , no conflict occurs if there are different files)
+
+
+when you work on different branch and have modified the same file after merging then a message will appear on that file ,remove upper section as well as lower section and keep the changes that you want to keep.after that add and commit the changes  (refer picture github2.png)  
+
+git diff is usd to see the difference between two stages onto the same file.
+"git diff --stages" (for the above action)
+
+"git diff commit_id1 commit_id2" (diff between the two commits or stages)
+"git diff branchname1 branchname2" (for diff between two branches);
+
+"git diff commit_id1... commit_id2" (do same as "git diff commit_id1 commit_id2")
+
+"git stash" is used to save the changes temporarily and go to some another branch without saving those changes to even staged stage.
+
+to bring back the changes you need "git stash pop".
+
+"git stashlist" to see the list of those chnages.
+
+"git stash apply" to apply a particular change.
+
+"git checkout commitid" to go back to some previous commit.
+to rturn back to original commit from previous use "git checkout master or git riflog"
+
+
+"git checkout head~2" to take head to 2 commits back.
+
+
