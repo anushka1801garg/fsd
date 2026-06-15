@@ -88,4 +88,20 @@ to rturn back to original commit from previous use "git checkout master or git r
 
 "git checkout head~2" to take head to 2 commits back.
 
+"git remote add origin https://github.com/anushka1801/MyProject.git" (to add file tp github)
+"git branch -M main"  (to rename the master branch)
+"git push -u origin main" (to finally push the code)
+
+to clone a repo "git clone url"
+
+to contribute to an open sourse contribution:
+1)open issue and write the issue 
+2)fork the repo due to which it comes to our account
+3)clone the repo
+4)make the changes by creating a new branch
+5)make got pull request
+6)add detialed description
+7)last make git pull
+
+
 
